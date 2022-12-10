@@ -21,7 +21,7 @@ MORPHO & ARDUINO shields COMM (USB/RS485/CAN)，适用于 ST NUCLEO-64 开发板
 * RX: PB8  
 		
 ![image](NUCLEO-F072RB.png)
-
+***
 ### 2. NUCLEO-F091RC 
 2.1 USB
 * N/A
@@ -36,7 +36,7 @@ MORPHO & ARDUINO shields COMM (USB/RS485/CAN)，适用于 ST NUCLEO-64 开发板
 * RX: PB8
 		
 ![image](NUCLEO-F091RC.png)
-
+***
 ### 3. NUCLEO-F103RB 
 3.1 USB  
 * DP: PA12  
@@ -52,7 +52,7 @@ MORPHO & ARDUINO shields COMM (USB/RS485/CAN)，适用于 ST NUCLEO-64 开发板
 * RX: PB8  
 		
 ![image](NUCLEO-F103RB.png)
-
+***
 ### 4. NUCLEO-F466RE
 4.1 USB  
 * DP: PA12  
@@ -72,7 +72,7 @@ MORPHO & ARDUINO shields COMM (USB/RS485/CAN)，适用于 ST NUCLEO-64 开发板
 * RX: PB5  
 		
 ![image](NUCLEO-F466RE.png)
-
+***
 ### 5. NUCLEO-G0B1RE
 5.1 USB  
 * DP: PA12  
@@ -93,7 +93,7 @@ MORPHO & ARDUINO shields COMM (USB/RS485/CAN)，适用于 ST NUCLEO-64 开发板
 __CAN2 TX pin position is NOT default, change J5__
 
 ![image](NUCLEO-G0B1RE.png)
-
+***
 ### 6. NUCLEO-G431RB
 6.1 USB  
 * DP: PA12  
@@ -109,7 +109,7 @@ __CAN2 TX pin position is NOT default, change J5__
 * RX: PB8  
 
 ![image](NUCLEO-G431RB.png)
-
+***
 ### 7. NUCLEO-G474RE / NUCLEO-G491RE
 7.1 USB  
 * DP: PA12  
@@ -129,7 +129,7 @@ __CAN2 TX pin position is NOT default, change J5__
 * RX: PB5  
 
 ![image](NUCLEO-G474RE.png)![image](NUCLEO-G491RE.png)
-
+***
 
 ## 资源
 1.  原理图/PCB [[link]](https://gitee.com/ibotx/mas/tree/master/MAS101/HW/V1.0)
