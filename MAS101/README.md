@@ -1,6 +1,6 @@
 # MAS101
 
-#### 介绍
+## 介绍
 MORPHO & ARDUINO shields
 COMM (USB/RS485/CAN)
 
@@ -10,8 +10,8 @@ COMM (USB/RS485/CAN)
 
 ![image](nucleo-64.png)
 
-#### 说明
-1. NUCLEO-F072RB
+## 说明
+### 1. NUCLEO-F072RB
 
 ![image](NUCLEO-F072RB.png)
 
@@ -28,6 +28,6 @@ COMM (USB/RS485/CAN)
 		TX: PB9
 		RX: PB8		
 
-#### 资源
+## 资源
 1.  原理图/PCB [[link]](https://gitee.com/ibotx/mas/tree/master/MAS101/HW/V1.0)
 
