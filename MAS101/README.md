@@ -88,9 +88,9 @@ MORPHO & ARDUINO shields COMM (USB/RS485/CAN)，适用于 ST NUCLEO-64 开发板
 * RX: PB8  
 		
 5.3 CAN2  
-* TX: PB6  
+* TX: PB6  ___(TX pin position is NOT default, change J5)___
 * RX: PB5  
-__CAN2 TX pin position is NOT default, change J5__
+
 
 ![image](NUCLEO-G0B1RE.png)
 ***
