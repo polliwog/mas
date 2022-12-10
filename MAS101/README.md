@@ -37,6 +37,22 @@ MORPHO & ARDUINO shields COMM (USB/RS485/CAN)，适用于 ST NUCLEO-64 开发板
 		
 ![image](NUCLEO-F091RC.png)
 
+### 3. NUCLEO-F103RB 
+#### 3.1 USB  
+* DP: PA12  
+* DM: PA11  
+
+#### 3.2 RS485 (USART1)  
+* TX: PA9  
+* RX: PA10  
+* DE: Simulate DE with TX 
+		
+#### 3.3 CAN  
+* TX: PB9  
+* RX: PB8  
+		
+![image](NUCLEO-F103RB.png)
+
 ## 资源
 1.  原理图/PCB [[link]](https://gitee.com/ibotx/mas/tree/master/MAS101/HW/V1.0)
 
