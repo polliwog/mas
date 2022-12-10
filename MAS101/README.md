@@ -8,17 +8,17 @@ MORPHO & ARDUINO shields COMM (USB/RS485/CAN)，适用于 ST NUCLEO-64 开发板
 ## 硬件配置
 ### 1. NUCLEO-F072RB 
 1.1 USB  
-		DP: PA12  
-		DM: PA11  
+* DP: PA12  
+* DM: PA11  
 
 1.2 RS485 (USART4)  
-		TX: PC10  
-		RX: PC11  
-		DE: PA15  
+* TX: PC10  
+* RX: PC11  
+* DE: PA15  
 		
 1.3 CAN  
-		TX: PB9  
-		RX: PB8  
+* TX: PB9  
+* RX: PB8  
 		
 ![image](NUCLEO-F072RB.png)
 
