@@ -6,7 +6,8 @@ COMM (USB/RS485/CAN)
 
 适用于 ST NUCLEO-64 开发板
 
-#### 资源
+![image](https://gitee.com/ibotx/mas/nucleo-64.png)
 
-1.  硬件原理图 [Schematic_ST-Morpho&Arduino_COMM_V1.0.pdf](https://gitee.com/ibotx/mas/MAS101/HW/V1.0/Schematic_ST-Morpho&Arduino_COMM_V1.0.pdf)
+#### 资源
+1.  原理图/PCB [Schematic_ST-Morpho&Arduino_COMM_V1.0.pdf](https://gitee.com/ibotx/mas/tree/master/MAS101/HW/V1.0)
 
