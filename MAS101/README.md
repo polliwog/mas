@@ -4,7 +4,7 @@
 MORPHO & ARDUINO shields COMM (USB/RS485/CAN)，适用于 ST NUCLEO-64 开发板
 
 ![image](mas101.png) ![image](nucleo-64.png)
-
+***
 ## 硬件配置
 ### 1. NUCLEO-F072RB 
 1.1 USB  
@@ -132,5 +132,5 @@ __CAN2 TX pin position is NOT default, change J5__
 ***
 
 ## 资源
-1.  原理图/PCB [[link]](https://gitee.com/ibotx/mas/tree/master/MAS101/HW/V1.0)
+### 1.  原理图/PCB [[link]](https://gitee.com/ibotx/mas/tree/master/MAS101/HW/V1.0)
 
