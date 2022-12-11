@@ -1,5 +1,5 @@
 # [MORPHO ARDUINO SHIELDS PROJECT](https://gitee.com/ibotx/mas)  
-![image](QR_MAS)  
+![image](QR_MAS.png)  
  
 ## 介绍
 MORPHO & ARDUINO shields，适用于 ST NUCLEO-64 开发板

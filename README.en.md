@@ -1,5 +1,5 @@
 # [MORPHO ARDUINO SHIELDS PROJECT](https://gitee.com/ibotx/mas)  
-![image](QR_MAS)  
+![image](QR_MAS.png)  
 
 ## Introduction
 MORPHO & ARDUINO SHIELDS for the ST NUCLEO-64 DEVELOPMENT BOARD
