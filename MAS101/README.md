@@ -131,6 +131,9 @@ MORPHO & ARDUINO shields COMM (USB/RS485/CAN)，适用于 ST NUCLEO-64 开发板
 ![image](NUCLEO-G474RE.png)![image](NUCLEO-G491RE.png)
 ***
 
-## 资源
+## 硬件资源
 ### 1.  原理图/PCB [[link]](https://gitee.com/ibotx/mas/tree/master/MAS101/HW/V1.0)
+***
 
+## 软件资源 （Examples）
+###  USB2RS485[[link]](https://gitee.com/ibotx/mas/tree/master/MAS101/FW/Examples/USB2RS485)
