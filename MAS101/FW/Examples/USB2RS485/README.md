@@ -30,20 +30,21 @@
 ## 2 Modify code  
 ### 2.1 usbd_cdc_if.c  
 * Modify function "CDC_Receive_FS"
-
-` //CODE BEGIN
-` extern UART_HandleTypeDef huart4;
-` //CODE END
-` 
-` static int8_t CDC_Receive_FS(uint8_t *Buf, uint32_t *Len) {
-` /* USER CODE BEGIN 6 */
-`   USBD_CDC_SetRxBuffer(&hUsbDeviceFS, &Buf[0]);
-`   USBD_CDC_ReceivePacket(&hUsbDeviceFS);
-` 
-` //CODE BEGIN
-`   HAL_UART_Transmit(&huart4, Buf, *Len, 100);
-` //CODE END
-` 
-`   return (USBD_OK);
-` /* USER CODE END 6 */
-` }
+\  ````
+ //CODE BEGIN
+ extern UART_HandleTypeDef huart4;
+ //CODE END
+ 
+ static int8_t CDC_Receive_FS(uint8_t *Buf, uint32_t *Len) {
+ /* USER CODE BEGIN 6 */
+   USBD_CDC_SetRxBuffer(&hUsbDeviceFS, &Buf[0]);
+   USBD_CDC_ReceivePacket(&hUsbDeviceFS);
+ 
+ //CODE BEGIN
+   HAL_UART_Transmit(&huart4, Buf, *Len, 100);
+ //CODE END
+ 
+   return (USBD_OK);
+ /* USER CODE END 6 */
+ }
+\  ````
