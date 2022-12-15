@@ -1,13 +1,12 @@
 # MAS101 USB2RS485 STEP BY STEP  
-** A step by step example, implement a USB to RS485 device.  
+**A step by step example, implement a USB to RS485 device.**  
   
-  
-** RS485 (USART4)  **
+**RS485 (USART4)**  
 * TX: PC10  
 * RX: PC11  
 * DE: PA15  
 
-** USB  **
+**USB**  
 * DP: PA12  
 * DM: PA11  
 
