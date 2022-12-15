@@ -3,7 +3,7 @@
 ## 介绍
 MORPHO & ARDUINO shields COMM (USB/RS485/CAN)，适用于 ST NUCLEO-64 开发板
 
-![image](mas101.png) ![image](nucleo-64.png)
+![image](mas101.png)
 ***
 ## 硬件配置
 ### 1. NUCLEO-F072RB 
