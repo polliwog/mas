@@ -136,4 +136,4 @@ MORPHO & ARDUINO shields COMM (USB/RS485/CAN)，适用于 ST NUCLEO-64 开发板
 ***
 
 ## 软件资源 （Examples）
-### 1.  USB2RS485[[link]](https://gitee.com/ibotx/mas/tree/master/MAS101/FW/Examples/USB2RS485)
+### 1.  USB2RS485 [[link]](https://gitee.com/ibotx/mas/tree/master/MAS101/FW/Examples/USB2RS485)
