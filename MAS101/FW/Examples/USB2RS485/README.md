@@ -26,6 +26,7 @@
 ![image](31.png) 
 
 ### 1.4 Save & close configuration  
+***
 
 ## 2 Modify code  
 ### 2.1 usbd_cdc_if.c  
@@ -48,3 +49,61 @@
  /* USER CODE END 6 */
  }
 ```
+
+### 2.2 main.c
+* Modify function "main"
+```C
+//CODE BEGIN
+uint8_t buf[1024];
+uint16_t size;
+//CODE END
+
+int main(void) {
+...
+...
+	while (1) {
+		/* USER CODE END WHILE */
+
+		/* USER CODE BEGIN 3 */
+
+//CODE BEGIN
+		HAL_UART_Receive(&huart4, buf, 1024, 100);
+		size = huart4.RxXferSize - huart4.RxXferCount;
+		if (size > 0)
+			CDC_Transmit_FS(buf, size);
+//CODE END
+
+	}
+	/* USER CODE END 3 */
+}
+```
+***
+
+## 3 Config & connect hardware  
+### 3.1 J11 / J12 / J13 jump to "UART4"  
+![image](3.2.png) 
+
+### 3.2 CON1 A / B connect to an RS485 device  
+* Use a dedicated USB to RS485 device 
+![image](3.1.png) 
+
+### 3.3 Plug MAS101 to NUCLEO  
+![image](3.3.png) 
+
+***
+
+## 4 Run
+### 4.1 Plug micro USB to NUCLEO & flash the modified code
+
+### 4.2 Unplug micro USB & plug type C to MAS101
+* A new COM port appears
+![image](4.2.png) 
+
+### 4.3 Plug the dedicated USB to RS485 device
+* Another COM port appears
+![image](4.3.png) 
+
+### 4.4 Open 2 UART tools & send / receive data
+![image](4.4.png) 
+![image](4.5.png) 
+![image](4.6.png) 
