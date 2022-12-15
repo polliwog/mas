@@ -30,7 +30,7 @@
 ## 2 Modify code  
 ### 2.1 usbd_cdc_if.c  
 * Modify function "CDC_Receive_FS"
-\  ````
+```C
  //CODE BEGIN
  extern UART_HandleTypeDef huart4;
  //CODE END
@@ -47,4 +47,4 @@
    return (USBD_OK);
  /* USER CODE END 6 */
  }
-\  ````
+```
